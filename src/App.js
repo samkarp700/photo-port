@@ -6,7 +6,6 @@ import ContactForm from './components/Contact';
 
 // import { set } from 'mongoose';
 
-const [contactSelected, setContactSelected] = useState(false);
 
 function App() {
   const [categories] = useState([
@@ -23,6 +22,8 @@ function App() {
   
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
   
+  const [contactSelected, setContactSelected] = useState(false);
+
   return (
    <div>
       <Nav
