@@ -14,9 +14,9 @@ const handleClick = () => {
     console.log("click handled")
 }
     return (
-       <header data-testid="header" className='flex-row px-1'>
+       <header className='flex-row px-1'>
         <h2>
-            <a href = "/">
+            <a data-testid="link" href = "/">
                 <span role = "img" aria-label="camera"> 📸</span> Oh Snap!
             </a>
         </h2>
