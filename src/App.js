@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import About from './components/About';
 import Nav from './components/Nav';
 import Gallery from './components/Gallery';
+import Contact from './components/Contact';
+
 // import { set } from 'mongoose';
 
 function App() {
